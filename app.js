@@ -162,7 +162,6 @@
     const exerciseCount = day && day.exercises ? day.exercises.length : 0;
 
     return '<div class="page tracker-home"><div class="page-stack">' +
-      '<div class="tracker-card install-card">' +
         '<div class="tracker-card-heading">Install as an App</div>' +
         '<div class="tracker-copy">Tap the button below to add this to your home screen.</div>' +
         '<button class="action-btn tracker-primary-btn" id="a2hs-btn">Add to Home Screen</button>' +
