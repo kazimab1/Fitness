@@ -1,0 +1,651 @@
+{
+  "meta": {
+    "eyebrow": "HOME SETUP · BEGINNER · LEAN BULK + CARDIO",
+    "title": "BUILD & RUN",
+    "subtitle": "6'0\" · 67 kg · Beginner · Strength + Cardio · Starting weights included",
+    "footer": "RUN THE NEIGHBORHOOD · LIFT THE DUMBBELLS · BUILD THE BODY"
+  },
+  "equipment": [
+    {
+      "icon": "🏋️",
+      "label": "Barbell Bench"
+    },
+    {
+      "icon": "💪",
+      "label": "Dumbbells"
+    },
+    {
+      "icon": "🔄",
+      "label": "Abs Roller"
+    },
+    {
+      "icon": "⬆️",
+      "label": "Pull Up Bar"
+    },
+    {
+      "icon": "🪃",
+      "label": "Indian Gada"
+    },
+    {
+      "icon": "👟",
+      "label": "Neighborhood Jog"
+    }
+  ],
+  "stats": [
+    {
+      "label": "DAILY CALORIES",
+      "value": "~3550 kcal",
+      "accent": "#e8ff5a"
+    },
+    {
+      "label": "PROTEIN / DAY",
+      "value": "258g",
+      "accent": "#5affb0"
+    },
+    {
+      "label": "STRENGTH DAYS",
+      "value": "5 x / week",
+      "accent": "#ff8c5a"
+    },
+    {
+      "label": "CARDIO DAYS",
+      "value": "2 x / week",
+      "accent": "#ff5a8a"
+    }
+  ],
+  "days": [
+    {
+      "label": "MON",
+      "name": "Upper Body A",
+      "focus": "Chest · Back · Shoulders",
+      "tag": "PUSH + PULL",
+      "color": "#e8ff5a",
+      "cardio": null,
+      "exercises": [
+        {
+          "name": "Barbell Bench Press",
+          "sets": "4",
+          "reps": "6–8",
+          "rest": "90s",
+          "weight": "40 kg",
+          "note": "Keep chest up, controlled descent",
+          "eq": "🏋️"
+        },
+        {
+          "name": "Pull Ups",
+          "sets": "4",
+          "reps": "6–10",
+          "rest": "90s",
+          "weight": "Bodyweight",
+          "note": "Best back builder. Overhand grip",
+          "eq": "⬆️"
+        },
+        {
+          "name": "Dumbbell Overhead Press",
+          "sets": "3",
+          "reps": "8–10",
+          "rest": "75s",
+          "weight": "8 kg each",
+          "note": "Seated or standing. Keep core braced",
+          "eq": "💪"
+        },
+        {
+          "name": "Dumbbell Bent-Over Row",
+          "sets": "3",
+          "reps": "10–12",
+          "rest": "60s",
+          "weight": "10 kg each",
+          "note": "One arm at a time, brace on a chair",
+          "eq": "💪"
+        },
+        {
+          "name": "Dumbbell Lateral Raise",
+          "sets": "3",
+          "reps": "12–15",
+          "rest": "45s",
+          "weight": "4 kg each",
+          "note": "Light weight, slow and controlled",
+          "eq": "💪"
+        },
+        {
+          "name": "Dumbbell Curl",
+          "sets": "3",
+          "reps": "10–12",
+          "rest": "45s",
+          "weight": "8 kg each",
+          "note": "Alternate arms, full range of motion",
+          "eq": "💪"
+        },
+        {
+          "name": "Dumbbell Tricep Kickback",
+          "sets": "3",
+          "reps": "10–12",
+          "rest": "45s",
+          "weight": "5 kg each",
+          "note": "Keep upper arm parallel to floor",
+          "eq": "💪"
+        }
+      ]
+    },
+    {
+      "label": "TUE",
+      "name": "Lower Body A",
+      "focus": "Quads · Glutes · Calves",
+      "tag": "SQUAT FOCUS",
+      "color": "#5affb0",
+      "cardio": null,
+      "exercises": [
+        {
+          "name": "Dumbbell Goblet Squat",
+          "sets": "4",
+          "reps": "10–12",
+          "rest": "90s",
+          "weight": "14 kg (1 DB)",
+          "note": "Hold one DB at chest. Go deep",
+          "eq": "💪"
+        },
+        {
+          "name": "Dumbbell Romanian Deadlift",
+          "sets": "4",
+          "reps": "8–10",
+          "rest": "90s",
+          "weight": "12 kg each",
+          "note": "Push hips back, feel the hamstring stretch",
+          "eq": "💪"
+        },
+        {
+          "name": "Dumbbell Walking Lunges",
+          "sets": "3",
+          "reps": "12 each",
+          "rest": "75s",
+          "weight": "8 kg each",
+          "note": "Long stride, keep torso upright",
+          "eq": "💪"
+        },
+        {
+          "name": "Dumbbell Step-Ups",
+          "sets": "3",
+          "reps": "10 each",
+          "rest": "60s",
+          "weight": "8 kg each",
+          "note": "Sturdy chair — drive through the heel",
+          "eq": "💪"
+        },
+        {
+          "name": "Dumbbell Sumo Squat",
+          "sets": "3",
+          "reps": "12–15",
+          "rest": "60s",
+          "weight": "16 kg (1 DB)",
+          "note": "Wide stance, toes out — hits inner thighs",
+          "eq": "💪"
+        },
+        {
+          "name": "Standing Calf Raise",
+          "sets": "4",
+          "reps": "15–20",
+          "rest": "30s",
+          "weight": "12 kg each",
+          "note": "Hold DBs for weight, pause 1 sec at top",
+          "eq": "💪"
+        }
+      ]
+    },
+    {
+      "label": "WED",
+      "name": "Gada + Easy Jog",
+      "focus": "Mobility · Cardio · Shoulders",
+      "tag": "ACTIVE DAY",
+      "color": "#c77dff",
+      "cardio": {
+        "type": "Easy Jog",
+        "icon": "👟",
+        "duration": "20–25 min",
+        "intensity": "EASY",
+        "intensityColor": "#5affb0",
+        "pace": "Conversational — you should be able to hold a full sentence while running",
+        "when": "Morning, before the gada session",
+        "zone": "Zone 2",
+        "zoneDesc": "Low intensity fat-burning zone. Builds aerobic base without hurting recovery.",
+        "steps": [
+          {
+            "phase": "Warm-Up Walk",
+            "duration": "3 min",
+            "detail": "Brisk walk to prime the legs"
+          },
+          {
+            "phase": "Easy Jog",
+            "duration": "15–20 min",
+            "detail": "Slow, steady pace — never gasping for air"
+          },
+          {
+            "phase": "Cool-Down",
+            "duration": "2–3 min",
+            "detail": "Gradually slow to a walk, don't stop abruptly"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "name": "Gada 360s",
+          "sets": "3",
+          "reps": "10 each side",
+          "rest": "60s",
+          "weight": "Light gada",
+          "note": "Full circular swing overhead. Master the skill first",
+          "eq": "🪃"
+        },
+        {
+          "name": "Gada 10-to-2 Swings",
+          "sets": "3",
+          "reps": "15 each side",
+          "rest": "60s",
+          "weight": "Light gada",
+          "note": "Side swings from 10 o'clock to 2 o'clock position",
+          "eq": "🪃"
+        },
+        {
+          "name": "Gada Front & Back Swings",
+          "sets": "3",
+          "reps": "20",
+          "rest": "45s",
+          "weight": "Light gada",
+          "note": "Pendulum motion — great for shoulder mobility",
+          "eq": "🪃"
+        },
+        {
+          "name": "Full Body Stretch",
+          "sets": "—",
+          "reps": "10 min",
+          "rest": "—",
+          "weight": "—",
+          "note": "Hips, chest, hamstrings, lats",
+          "eq": "—"
+        }
+      ]
+    },
+    {
+      "label": "THU",
+      "name": "Upper Body B",
+      "focus": "Back · Chest · Arms",
+      "tag": "PULL + PUSH",
+      "color": "#ff8c5a",
+      "cardio": null,
+      "exercises": [
+        {
+          "name": "Chin Ups (Underhand)",
+          "sets": "4",
+          "reps": "6–10",
+          "rest": "90s",
+          "weight": "Bodyweight",
+          "note": "Underhand = more bicep involvement than pull ups",
+          "eq": "⬆️"
+        },
+        {
+          "name": "Incline Dumbbell Press",
+          "sets": "4",
+          "reps": "8–10",
+          "rest": "90s",
+          "weight": "9 kg each",
+          "note": "Prop bench up or use an angled surface",
+          "eq": "💪"
+        },
+        {
+          "name": "Dumbbell Renegade Row",
+          "sets": "3",
+          "reps": "8 each",
+          "rest": "75s",
+          "weight": "8 kg each",
+          "note": "Push-up position, row one DB. Core stays tight",
+          "eq": "💪"
+        },
+        {
+          "name": "Dumbbell Arnold Press",
+          "sets": "3",
+          "reps": "10–12",
+          "rest": "60s",
+          "weight": "7 kg each",
+          "note": "Rotate palms-in to palms-out as you press up",
+          "eq": "💪"
+        },
+        {
+          "name": "Gada Halo",
+          "sets": "3",
+          "reps": "10 each dir",
+          "rest": "45s",
+          "weight": "Light gada",
+          "note": "Circle around your head — great for shoulder health",
+          "eq": "🪃"
+        },
+        {
+          "name": "Dumbbell Hammer Curl",
+          "sets": "3",
+          "reps": "10–12",
+          "rest": "45s",
+          "weight": "8 kg each",
+          "note": "Neutral grip — hits brachialis for arm thickness",
+          "eq": "💪"
+        },
+        {
+          "name": "Diamond Push Ups",
+          "sets": "3",
+          "reps": "10–15",
+          "rest": "45s",
+          "weight": "Bodyweight",
+          "note": "Hands in diamond shape — tricep burnout finisher",
+          "eq": "—"
+        }
+      ]
+    },
+    {
+      "label": "FRI",
+      "name": "Lower Body B + Core",
+      "focus": "Hamstrings · Glutes · Core",
+      "tag": "HINGE + CORE",
+      "color": "#5ab4ff",
+      "cardio": null,
+      "exercises": [
+        {
+          "name": "Single-Leg RDL",
+          "sets": "4",
+          "reps": "8–10 each",
+          "rest": "90s",
+          "weight": "10 kg each",
+          "note": "Balance on one leg — great glute + hamstring builder",
+          "eq": "💪"
+        },
+        {
+          "name": "Dumbbell Hip Thrust",
+          "sets": "4",
+          "reps": "10–12",
+          "rest": "75s",
+          "weight": "14 kg (1 DB)",
+          "note": "Shoulders on couch, DB on hips, squeeze glutes at top",
+          "eq": "💪"
+        },
+        {
+          "name": "Bulgarian Split Squat",
+          "sets": "3",
+          "reps": "10 each",
+          "rest": "75s",
+          "weight": "Bodyweight",
+          "note": "Rear foot on chair. Start BW — it will humble you",
+          "eq": "💪"
+        },
+        {
+          "name": "Glute Bridge March",
+          "sets": "3",
+          "reps": "12 each",
+          "rest": "45s",
+          "weight": "Bodyweight",
+          "note": "In bridge, alternate lifting each knee",
+          "eq": "—"
+        },
+        {
+          "name": "Ab Wheel Rollout",
+          "sets": "4",
+          "reps": "8–12",
+          "rest": "45s",
+          "weight": "Bodyweight",
+          "note": "Go slow — one of the best core exercises in existence",
+          "eq": "🔄"
+        },
+        {
+          "name": "Hanging Leg Raise",
+          "sets": "3",
+          "reps": "10–15",
+          "rest": "45s",
+          "weight": "Bodyweight",
+          "note": "From pull up bar — straight legs for max difficulty",
+          "eq": "⬆️"
+        },
+        {
+          "name": "Seated Calf Raise",
+          "sets": "3",
+          "reps": "15–20",
+          "rest": "30s",
+          "weight": "12 kg each",
+          "note": "Sit on chair, DB on knees, rise on balls of feet",
+          "eq": "💪"
+        }
+      ]
+    },
+    {
+      "label": "SAT",
+      "name": "Long Jog",
+      "focus": "Cardio · Endurance",
+      "tag": "CARDIO DAY",
+      "color": "#ff5a8a",
+      "cardio": {
+        "type": "Progressive Long Jog",
+        "icon": "🏃",
+        "duration": "30–40 min",
+        "intensity": "MODERATE",
+        "intensityColor": "#ffb347",
+        "pace": "Slightly challenging — breathing harder but still in control",
+        "when": "Morning — best time for fat burning and energy levels",
+        "zone": "Zone 2–3",
+        "zoneDesc": "Builds cardiovascular endurance. Your weekly long run — the backbone of your cardio fitness.",
+        "steps": [
+          {
+            "phase": "Warm-Up Walk",
+            "duration": "4 min",
+            "detail": "Brisk walk, light leg swings and hip circles"
+          },
+          {
+            "phase": "Jog (Week 1–2)",
+            "duration": "20 min",
+            "detail": "Slow jog — build the base, don't rush"
+          },
+          {
+            "phase": "Jog (Week 3–4)",
+            "duration": "25 min",
+            "detail": "Same pace, slightly longer duration"
+          },
+          {
+            "phase": "Jog (Month 2+)",
+            "duration": "30–40 min",
+            "detail": "Gradually extend as fitness improves"
+          },
+          {
+            "phase": "Cool-Down Walk",
+            "duration": "4–5 min",
+            "detail": "Walk it out, then stretch calves, quads, hips"
+          }
+        ]
+      },
+      "exercises": []
+    },
+    {
+      "label": "SUN",
+      "name": "Full Rest",
+      "focus": "Meal Prep · Mindset",
+      "tag": "REST DAY",
+      "color": "#888888",
+      "cardio": null,
+      "exercises": [
+        {
+          "name": "Meal prep for the week",
+          "sets": "—",
+          "reps": "—",
+          "rest": "—",
+          "weight": "—",
+          "note": "Cook rice, chicken, eggs in bulk",
+          "eq": "—"
+        },
+        {
+          "name": "Track your weight",
+          "sets": "—",
+          "reps": "—",
+          "rest": "—",
+          "weight": "—",
+          "note": "Weigh yourself every morning, same time",
+          "eq": "—"
+        },
+        {
+          "name": "Review progress & adjust",
+          "sets": "—",
+          "reps": "—",
+          "rest": "—",
+          "weight": "—",
+          "note": "Add reps or weight wherever lifts felt easy",
+          "eq": "—"
+        }
+      ]
+    }
+  ],
+  "meals": [
+    {
+      "time": "7:00 AM",
+      "name": "Breakfast",
+      "icon": "🌅",
+      "kcal": 650,
+      "protein": 40,
+      "carbs": 70,
+      "fat": 18,
+      "items": [
+        "4 whole eggs scrambled",
+        "2 slices whole grain toast",
+        "1 banana",
+        "240ml whole milk"
+      ],
+      "tip": "Eat within 30 min of waking. Eggs are a complete protein source with healthy fats."
+    },
+    {
+      "time": "10:30 AM",
+      "name": "Mid-Morning Snack",
+      "icon": "🥜",
+      "kcal": 400,
+      "protein": 28,
+      "carbs": 38,
+      "fat": 14,
+      "items": [
+        "200g full-fat Greek yogurt",
+        "1 tbsp peanut butter",
+        "30g mixed nuts",
+        "1 apple"
+      ],
+      "tip": "High protein + healthy fats — keeps you anabolic between meals."
+    },
+    {
+      "time": "1:00 PM",
+      "name": "Lunch",
+      "icon": "🍗",
+      "kcal": 700,
+      "protein": 50,
+      "carbs": 75,
+      "fat": 16,
+      "items": [
+        "220g grilled chicken breast",
+        "1.5 cups cooked white rice",
+        "1 cup steamed broccoli",
+        "1 tbsp olive oil"
+      ],
+      "tip": "White rice digests fast and replenishes muscle glycogen effectively."
+    },
+    {
+      "time": "Pre-Workout",
+      "name": "Pre-Workout Snack",
+      "icon": "⚡",
+      "kcal": 320,
+      "protein": 22,
+      "carbs": 42,
+      "fat": 5,
+      "items": [
+        "1 scoop whey protein in water",
+        "1 medium banana",
+        "1 rice cake with honey"
+      ],
+      "tip": "Eat 45–60 min before training. Carbs = fuel. Protein = muscle primer."
+    },
+    {
+      "time": "Post-Workout",
+      "name": "Post-Workout Meal",
+      "icon": "💪",
+      "kcal": 570,
+      "protein": 46,
+      "carbs": 62,
+      "fat": 11,
+      "items": [
+        "220g lean ground beef or canned tuna",
+        "1 cup pasta or sweet potato",
+        "Mixed salad with vinaigrette"
+      ],
+      "tip": "Eat within 60 min post-training. Most important meal for muscle growth."
+    },
+    {
+      "time": "7:00 PM",
+      "name": "Dinner",
+      "icon": "🌙",
+      "kcal": 650,
+      "protein": 46,
+      "carbs": 58,
+      "fat": 18,
+      "items": [
+        "200g salmon or tilapia fillet",
+        "1 cup brown rice",
+        "1 cup roasted vegetables",
+        "1 glass whole milk"
+      ],
+      "tip": "Salmon provides omega-3s that reduce inflammation and support recovery."
+    },
+    {
+      "time": "Before Bed",
+      "name": "Night Snack",
+      "icon": "🌛",
+      "kcal": 260,
+      "protein": 26,
+      "carbs": 22,
+      "fat": 7,
+      "items": [
+        "200g cottage cheese",
+        "1 tbsp honey or a handful of berries"
+      ],
+      "tip": "Cottage cheese = slow-digesting casein protein. Feeds muscles overnight."
+    }
+  ],
+  "tips": [
+    {
+      "icon": "⚖️",
+      "title": "How to Use These Weights",
+      "color": "#e8ff5a",
+      "body": "These are suggested starting weights for a 67 kg beginner. They are intentionally conservative. If a weight feels too easy from rep 1, go one step heavier. If you can't hit the bottom of the rep range with good form, go lighter. Ego has no place in week 1."
+    },
+    {
+      "icon": "📈",
+      "title": "When to Increase Weight",
+      "color": "#5affb0",
+      "body": "When you can complete ALL sets at the TOP of the rep range with clean form, add 2–2.5 kg to dumbbell moves and 2.5–5 kg to barbell moves next session. This is progressive overload — the engine of muscle growth."
+    },
+    {
+      "icon": "👟",
+      "title": "Run Slow to Run Better",
+      "color": "#ff5a8a",
+      "body": "80% of your jogging should feel easy — conversational pace. Most beginners run too fast and burn out. Slow down, and you'll run longer, recover faster, and actually enjoy it."
+    },
+    {
+      "icon": "📅",
+      "title": "Cardio & Lifting Schedule",
+      "color": "#ff8c5a",
+      "body": "Cardio sits on Wednesday (easy jog) and Saturday (long jog) — away from leg days to minimize interference. Never do heavy cardio right before or after a leg session."
+    },
+    {
+      "icon": "🍌",
+      "title": "Fuel Your Cardio Days",
+      "color": "#ffb347",
+      "body": "On jog days, add an extra banana or a slice of toast to your pre-workout snack. Cardio burns extra glycogen — you need those carbs, especially while bulking."
+    },
+    {
+      "icon": "🪃",
+      "title": "The Gada Advantage",
+      "color": "#c77dff",
+      "body": "The Indian gada builds shoulder health, rotational core strength, and grip that most gym-goers never develop. Train it on Wednesdays as active recovery — it enhances your pressing and pulling strength over time."
+    },
+    {
+      "icon": "😴",
+      "title": "Sleep is Non-Negotiable",
+      "color": "#5ab4ff",
+      "body": "Aim for 8–9 hours per night. Muscle is built during rest. Adding cardio means your body needs even more recovery — don't cut sleep to fit in extra training."
+    }
+  ]
+}
