@@ -161,12 +161,7 @@
     const mealCount = (plan.meals || []).length;
     const exerciseCount = day && day.exercises ? day.exercises.length : 0;
 
-    return '<div class="page tracker-home"><div class="page-stack">' +
-        '<div class="tracker-card-heading">Install as an App</div>' +
-        '<div class="tracker-copy">Tap the button below to add this to your home screen.</div>' +
-        '<button class="action-btn tracker-primary-btn" id="a2hs-btn">Add to Home Screen</button>' +
-      '</div>' +
-      '<div class="tracker-card progress-card">' +
+    return '<div class="tracker-card progress-card">' +
         '<div class="section-heading">WEEKLY PROGRESS</div>' +
         '<div class="progress-row"><div class="progress-number">' + escapeHtml(progress) + '%</div><div class="progress-meta">Days done ' + escapeHtml(done) + ' / ' + escapeHtml(total) + '</div></div>' +
         '<div class="progress-meter"><div class="progress-fill" style="width:' + progress + '%"></div></div>' +
